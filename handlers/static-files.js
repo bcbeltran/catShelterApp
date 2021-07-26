@@ -5,9 +5,9 @@ function getContentType(url) {
     } else if (url.endsWith('html')) {
         return 'text/html';
     } else if (url.endsWith('js')) {
-        return 'text/js';
+        return 'text/javascript';
     } else if (url.endsWith('png')) {
-        return 'text/png';
+        return 'image/png';
     }
 
     module.exports = (req, res) => {
