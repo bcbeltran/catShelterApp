@@ -59,7 +59,7 @@ form {
     margin-top: 1rem;
 }
 
-input[type=text], input[type="file"], input[type="number"], textarea, select {
+input[type="text"], input[type="file"], input[type="number"], textarea, select {
     padding: 0.5rem 7.5rem 0.5rem 1rem;
     border-radius: 7px;
     border: none ;
